@@ -1,8 +1,4 @@
-import WeatherBox from "./WeatherBox";
-import NotFound from "./NotFound";
-import { useState } from "react";
 import React from "react";
-import '../style.css';
 
 const APIKey = '16048450580f653b384b96a107dd3f4d';
 

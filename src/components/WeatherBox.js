@@ -1,4 +1,3 @@
-import WeatherDetail from "./WeatherDetails";
 import { useState, useRef, useEffect } from "react";
 import ClearImg from "../images/clear.png";
 import RainImg from "../images/rain.png";

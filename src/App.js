@@ -20,7 +20,7 @@ function App() {
     const handleButtonClick = () => {
         if (city === "")
             return;
-        
+
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`)
             .then(response => response.json())
             .then(json => {
